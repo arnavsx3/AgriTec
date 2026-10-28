@@ -18,11 +18,13 @@
 
 AgriTec brings crop planning, farm records, and practical field insights into one responsive workspace. The interface is designed to feel calm and clear on a phone or a desktop, with a backend foundation for secure accounts and persistent farm data.
 
-<p align="center">
-  <a href="./demo/AgriTec-demo.mp4"><img src="./demo/AgriTec-demo-poster.png" alt="Click to watch the two-minute AgriTec walkthrough" width="100%" /></a>
-</p>
+### Two-minute product tour
 
-<p align="center"><a href="./demo/AgriTec-demo.mp4"><strong>▶ Watch the 2-minute product tour</strong></a> · 720p H.264 · captioned</p>
+<p align="center"><strong>720p H.264 · captioned walkthrough</strong></p>
+
+![](https://github.com/user-attachments/assets/74527243-55d2-4239-a09a-0609839775b6)
+
+<p align="center"><a href="./demo/AgriTec-demo.mp4">Download the compressed MP4</a></p>
 
 ## What you can do
 
