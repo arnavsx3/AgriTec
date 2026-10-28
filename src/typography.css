@@ -1,0 +1,95 @@
+/* A readable floor for data-dense screens, with clear heading and supporting-text tiers. */
+:root { font-size: 16px; }
+body { font-size: 16px; }
+
+/* Global navigation and controls */
+.nav-label { font-size: 10px; }
+.nav-item { font-size: 14px; }
+.nav-new { font-size: 9px; }
+.farm-switcher strong { font-size: 14px; }
+.farm-switcher small, .profile-copy span { font-size: 12px; }
+.profile-copy strong, .breadcrumb { font-size: 13px; }
+.search-box input { font-size: 13px; }
+.api-status { font-size: 10px; }
+
+/* Hero and page headings */
+.hero-kicker { font-size: 10px; }
+.hero-banner h1 { font-size: clamp(34px, 3.2vw, 44px); }
+.hero-banner p { font-size: 14px; }
+.hero-primary, .hero-secondary { font-size: 12px; }
+.compact-hero h1 { font-size: 34px; }
+.date-line { font-size: 10px; }
+.welcome-row p { font-size: 13px; }
+
+/* Dashboard cards, charts, and crop details */
+.metric-label { font-size: 10px; }
+.metric-value { font-size: 25px; }
+.metric-note { font-size: 11px; }
+.trend { font-size: 11px; }
+.eyebrow { font-size: 10px; }
+.panel-heading h2, .section-heading h2 { font-size: 18px; }
+.select-button, .text-link { font-size: 11px; }
+.chart-big { font-size: 25px; }
+.chart-period, .chart-labels { font-size: 10px; }
+.chart-growth { font-size: 10px; }
+.crop-title-row h3 { font-size: 14px; }
+.crop-title-row p { font-size: 11px; }
+.crop-stage, .crop-area { font-size: 10px; }
+.progress-meta { font-size: 11px; }
+.harvest-date { font-size: 11px; }
+.weather-place, .weather-conditions, .weather-detail { font-size: 12px; }
+.forecast-item { font-size: 11px; }
+.forecast-item strong { font-size: 12px; }
+.weather-footnote { font-size: 10px; }
+.task-copy strong { font-size: 12px; }
+.task-copy span, .task-time { font-size: 11px; }
+.task-add-link, .tip-card button { font-size: 10px; }
+.tip-card p { font-size: 12px; }
+.page-foot { font-size: 10px; }
+
+/* Secondary pages and forms */
+.farm-card-content h3 { font-size: 17px; }
+.farm-card-content p, .farm-card-foot { font-size: 12px; }
+.farm-card-content > strong { font-size: 19px; }
+.calendar-crop strong { font-size: 13px; }
+.calendar-crop span, .calendar-days { font-size: 11px; }
+.calendar-progress { font-size: 12px; }
+.calendar-note strong, .insight-callout strong { font-size: 12px; }
+.calendar-note span, .insight-cards article p, .insight-callout p { font-size: 12px; }
+.insight-cards article > strong { font-size: 18px; }
+.community-banner h2 { font-size: 24px; }
+.community-banner p, .community-post p { font-size: 12px; }
+.community-post h3 { font-size: 15px; }
+.post-meta { font-size: 10px; }
+.post-actions button { font-size: 11px; }
+.task-modal label { font-size: 12px; }
+.task-modal input, .task-modal select { font-size: 13px; }
+.field-hint, .auth-switch { font-size: 10px; }
+.button-primary, .button-secondary { font-size: 12px; }
+.toast-message { font-size: 12px; }
+.empty-search { font-size: 12px; }
+
+@media (max-width: 760px) {
+  .hero-banner h1 { font-size: 34px; }
+  .compact-hero h1 { font-size: 29px; }
+}
+
+@media (max-width: 540px) {
+  .hero-banner h1 { font-size: 32px; }
+  .hero-banner p { font-size: 12px; }
+  .hero-kicker { font-size: 9px; }
+  .hero-primary, .hero-secondary { font-size: 11px; }
+  .compact-hero h1 { font-size: 28px; }
+  .compact-hero p { font-size: 12px; }
+  .nav-item { font-size: 14px; }
+  .metric-label { font-size: 10px; }
+  .metric-note { font-size: 10px; }
+  .metric-value { font-size: 22px; }
+  .panel-heading h2, .section-heading h2 { font-size: 17px; }
+  .task-copy strong { font-size: 12px; }
+  .task-copy span, .task-time { font-size: 11px; }
+  .crop-title-row h3 { font-size: 14px; }
+  .crop-title-row p, .harvest-date { font-size: 11px; }
+  .page-foot { font-size: 10px; }
+  .community-banner h2 { font-size: 20px; }
+}

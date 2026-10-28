@@ -6,6 +6,7 @@ import {
   Sprout, Sun, Thermometer, TrendingUp, Users, Wind, X, Zap,
 } from 'lucide-react'
 import './App.css'
+import './typography.css'
 import { checkApi, clearAccessToken, createCrop, createFarm, getCrops, getCurrentUser, getFarms, refreshSession, signIn, signOut, signUp } from './api.js'
 
 const TODAY_LABEL = new Intl.DateTimeFormat('en-IN', { weekday: 'long', day: '2-digit', month: 'long', year: 'numeric' }).format(new Date()).toUpperCase()
