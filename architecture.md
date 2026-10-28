@@ -95,6 +95,8 @@ Index user email uniquely; index farm owner, farm/crop references, and time-base
 6. Orders, expert consultation, community moderation, and reporting.
 7. Verification of API workflows, accessibility, responsive layouts, and deployment configuration.
 
-## Current boundary
+## Implementation status
 
-Only the React/Vite frontend is implemented at this stage. MongoDB, Express APIs, JWT authentication, live weather/soil feeds, notifications, and persistent records remain planned work. Do not use this application to make urgent safety or crop-treatment decisions without checking trusted local agricultural guidance.
+Implemented: Vite + React dashboard and responsive views; Express API; MongoDB User, Farm, and Crop models; farmer registration and login; short-lived access tokens with rotated, hashed refresh tokens in HttpOnly cookies; logout and current-user endpoints; Zod request validation; rate-limited authentication; and owner-scoped farm/crop CRUD. The API currently requires `MONGODB_URI` and secrets from `.env`.
+
+Still planned: connecting dashboard data to the API, farm/crop editing screens, admin management routes and UI, tasks/activities, orders, community persistence, consultations, notifications, and live weather/soil/advisory providers. The UI sample data is illustrative and is not a live reading. Do not use it to make urgent safety or crop-treatment decisions without checking trusted local agricultural guidance.

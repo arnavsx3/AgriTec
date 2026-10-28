@@ -6,6 +6,7 @@
 
 - At-a-glance farm health, field activity, and seasonal progress
 - Farm and crop tracking with practical growth-stage details
+- Express API with registration, login, refresh/logout, and owner-scoped farm/crop CRUD
 - Weather outlook and timely field alerts
 - Soil health indicators and recommendations
 - Resource planning, expert help, and community guidance
@@ -15,9 +16,9 @@
 
 - React and Vite (JavaScript)
 - CSS, with a component-based interface
-- Planned API and data layer: Node.js, Express, and MongoDB
+- API and data layer: Node.js, Express, MongoDB, JWT, bcrypt, and Zod validation
 
-The current frontend uses illustrative sample data. Live weather, soil sensors, accounts, and persisted farm records require the backend and service integrations described in [architecture.md](./architecture.md).
+The dashboard starts with illustrative sample data. The API persists accounts, farms, and crops in MongoDB. Weather, soil sensors, alerts, orders, community posts, and expert consultations still need their provider or feature integrations, as described in [architecture.md](./architecture.md).
 
 ## Run locally
 
@@ -28,7 +29,15 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite. To create a production build:
+Open the local URL printed by Vite. The API requires a MongoDB instance (local or Atlas). In another terminal, copy `.env.example` to `.env`, set the database URI and two different random JWT secrets, then start both parts:
+
+```bash
+cp .env.example .env
+# Edit .env with your MongoDB URI and random secrets
+npm run dev:all
+```
+
+The API listens on `http://localhost:4000`. Check `GET /api/v1/health` for API and database status. For only the frontend, `npm run dev` is enough. To create a production frontend build:
 
 ```bash
 npm run build
@@ -38,6 +47,7 @@ npm run build
 
 ```text
 src/       React application and styles
+server/    Express API, auth middleware, models, and routes
 public/    Static public assets
 ```
 
