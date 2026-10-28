@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="560" viewBox="0 0 1440 560" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="42" y1="28" x2="1320" y2="550" gradientUnits="userSpaceOnUse"><stop stop-color="#163F2E"/><stop offset=".58" stop-color="#246545"/><stop offset="1" stop-color="#3C8059"/></linearGradient>
+    <linearGradient id="hill" x1="930" y1="210" x2="1350" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#8FB578"/><stop offset="1" stop-color="#5E9568"/></linearGradient>
+    <linearGradient id="hill2" x1="1120" y1="298" x2="1390" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#B1C886"/><stop offset="1" stop-color="#7CA56A"/></linearGradient>
+    <linearGradient id="glass" x1="1112" y1="270" x2="1285" y2="383" gradientUnits="userSpaceOnUse"><stop stop-color="#F4FFF0" stop-opacity=".21"/><stop offset="1" stop-color="#F4FFF0" stop-opacity=".08"/></linearGradient>
+    <filter id="shadow" x="1032" y="232" width="313" height="221" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="14"/></filter>
+    <pattern id="rows" width="104" height="42" patternUnits="userSpaceOnUse" patternTransform="rotate(-9)"><path d="M0 0H104" stroke="#E6E9B6" stroke-opacity=".48" stroke-width="2"/></pattern>
+  </defs>
+  <path fill="url(#bg)" d="M24 0h1392a24 24 0 0 1 24 24v512a24 24 0 0 1-24 24H24a24 24 0 0 1-24-24V24A24 24 0 0 1 24 0Z"/>
+  <circle cx="1180" cy="138" r="66" fill="#E9D58C" fill-opacity=".95"/>
+  <circle cx="1180" cy="138" r="98" fill="#E9D58C" fill-opacity=".08"/>
+  <path d="M844 347c88-105 191-150 310-136 87 11 168 61 286 42v307H786l58-213Z" fill="#4E855D"/>
+  <path d="M867 446c135-117 252-132 366-101 87 24 139 87 207 89v126H790l77-114Z" fill="url(#hill)"/>
+  <path d="M1012 434c104-85 215-87 321-27 36 21 70 37 107 42v111H945l67-126Z" fill="url(#hill2)"/>
+  <path d="M958 437c142-104 298-65 482 17v106H928l30-123Z" fill="url(#rows)" opacity=".85"/>
+  <g opacity=".85" stroke="#D7E9B7" stroke-width="4" stroke-linecap="round"><path d="M1102 431c-2-42-5-78-13-105"/><path d="M1090 355c-24-2-39-16-44-39 23-1 40 10 44 39Z" fill="#D7E9B7"/><path d="M1094 381c21-3 37-17 41-39-22 0-38 12-41 39Z" fill="#D7E9B7"/><path d="M1089 407c-19-1-34-13-39-32 20-1 35 10 39 32Z" fill="#D7E9B7"/></g>
+  <g transform="translate(1090 272)"><rect width="192" height="91" rx="16" fill="url(#glass)" stroke="#F2FFF0" stroke-opacity=".32"/><circle cx="34" cy="34" r="17" fill="#E7D48C" fill-opacity=".2"/><path d="M27 36c0-6 5-11 11-11 4 0 8 2 10 6 5 0 9 4 9 9H27c-4 0-7-3-7-7 0-3 3-6 7-6v9Z" fill="#F5E7AE"/><text x="72" y="39" fill="#fff" font-family="DM Sans,Arial,sans-serif" font-size="25" font-weight="700">28°</text><text x="72" y="62" fill="#D6E8D7" font-family="DM Sans,Arial,sans-serif" font-size="12">Nashik today · demo</text></g>
+  <g transform="translate(886 418)"><rect width="179" height="68" rx="14" fill="#F5FFF0" fill-opacity=".15" stroke="#F5FFF0" stroke-opacity=".25"/><rect x="12" y="13" width="42" height="42" rx="12" fill="#EFF5C9" fill-opacity=".22"/><path d="M33 47V25m0 13c-9 0-13-5-13-12 8 0 13 4 13 12Zm0-5c0-8 4-13 12-13 0 8-4 13-12 13Z" stroke="#EFF5C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="67" y="31" fill="#D6E8D7" font-family="DM Sans,Arial,sans-serif" font-size="10" letter-spacing="1.3">GROWING SEASON</text><text x="67" y="49" fill="#fff" font-family="DM Sans,Arial,sans-serif" font-size="14" font-weight="700">Kharif · Demo</text></g>
+  <g transform="translate(88 82)"><rect width="46" height="46" rx="14" fill="#E9F2DB" fill-opacity=".16" stroke="#E9F2DB" stroke-opacity=".24"/><path d="M23 35V14m0 12c-8 0-12-4-12-11 7 0 12 4 12 11Zm0-6c0-7 4-11 11-11 0 7-4 11-11 11Z" stroke="#EAF3D5" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><text x="60" y="32" fill="#fff" font-family="Manrope,Arial,sans-serif" font-size="27" font-weight="800" letter-spacing="-1.4">Agri</text><text x="119" y="32" fill="#BBD6BC" font-family="Manrope,Arial,sans-serif" font-size="27" font-weight="600" letter-spacing="-1.4">Tec</text></g>
+  <text x="88" y="243" fill="#BBD9BF" font-family="DM Sans,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.2">A FARM WORKSPACE BUILT TO HELP YOU GROW</text>
+  <text x="84" y="319" fill="#fff" font-family="Fraunces,Georgia,serif" font-size="59" font-weight="600" letter-spacing="-1.8">A better day starts</text>
+  <text x="84" y="385" fill="#fff" font-family="Fraunces,Georgia,serif" font-size="59" font-weight="600" letter-spacing="-1.8">in the field.</text>
+  <text x="88" y="431" fill="#D0E1D4" font-family="DM Sans,Arial,sans-serif" font-size="18">Crops, weather, and farm plans — all in one clear view.</text>
+  <g transform="translate(88 468)"><rect width="164" height="44" rx="10" fill="#F2F7EC"/><path d="M23 22h14m-7-7v14" stroke="#285E3C" stroke-width="2.2" stroke-linecap="round"/><text x="49" y="27" fill="#255A39" font-family="DM Sans,Arial,sans-serif" font-size="13" font-weight="700">Plan today’s work</text></g>
+</svg>
