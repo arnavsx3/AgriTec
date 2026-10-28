@@ -18,6 +18,8 @@
 
 AgriTec brings crop planning, farm records, and practical field insights into one responsive workspace. The interface is designed to feel calm and clear on a phone or a desktop, with a backend foundation for secure accounts and persistent farm data.
 
+**[▶ Watch the 2-minute product tour](./demo/AgriTec-demo.mp4)** · 720p · captioned walkthrough
+
 ## What you can do
 
 | Workspace | What’s there |
