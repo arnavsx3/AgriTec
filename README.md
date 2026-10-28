@@ -29,7 +29,7 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite. The API requires a MongoDB instance (local or Atlas). In another terminal, copy `.env.example` to `.env`, set the database URI and two different random JWT secrets, then start both parts:
+Open the local URL printed by Vite. The API requires a MongoDB instance (local or Atlas). In another terminal, copy `.env.example` to `.env`, set the database URI, two different random JWT secrets, and `VITE_API_URL`, then start both parts:
 
 ```bash
 cp .env.example .env
@@ -37,7 +37,7 @@ cp .env.example .env
 npm run dev:all
 ```
 
-The API listens on `http://localhost:4000`. Check `GET /api/v1/health` for API and database status. For only the frontend, `npm run dev` is enough. To create a production frontend build:
+The API listens on `http://localhost:4000`. Sign in from the profile button to connect farm and crop records; the API-backed farm and crop views require MongoDB to be running. Check `GET /api/v1/health` for API and database status. For only the frontend, `npm run dev` is enough. To create a production frontend build:
 
 ```bash
 npm run build
