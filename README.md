@@ -23,14 +23,14 @@ AgriTec brings crop planning, farm records, and practical field insights into on
 <p align="center"><strong>720p H.264 · captioned walkthrough</strong></p>
 
 <p align="center">
-  <a href="https://github.com/arnavsx3/AgriTec/issues/1">
-    <img src="./demo/AgriTec-demo-poster.png" alt="Play the two-minute AgriTec product tour on GitHub" width="100%" />
+  <a href="https://arnavsx3.github.io/AgriTec/">
+    <img src="./demo/AgriTec-demo-poster.png" alt="Play the two-minute AgriTec product tour" width="100%" />
   </a>
 </p>
 
-<p align="center">Select the preview to play the video on GitHub.</p>
+<p align="center">Select the preview to open the video player. <a href="https://arnavsx3.github.io/AgriTec/AgriTec-demo.mp4">Play the MP4 directly</a>.</p>
 
-<p align="center"><a href="./demo/AgriTec-demo.mp4">Download the compressed MP4</a></p>
+<p align="center"><a href="https://github.com/arnavsx3/AgriTec/blob/main/demo/AgriTec-demo.mp4">View the MP4 source in the repository</a></p>
 
 ## What you can do
 
